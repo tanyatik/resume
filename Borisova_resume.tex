@@ -1,0 +1,93 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+\usepackage{hyperref}
+
+\begin{document}
+
+\name{Tatiana Borisova\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{{\bf Contact info} \\ 1 Ambulatorny proezd, 5-2-40, Moscow, 125315  \\
++7 (915) 264-55-06 \\ tanyatik@yandex.ru, tanyatik1@gmail.com}
+
+
+\begin{resume}
+
+% \section{Objective}
+% Auditing/Analysis of Operations
+
+
+\section{Experience}
+{\bf Developer,} Yandex LLC \hfill 2015 -- present \\
+Yandex News Department
+\begin{itemize} \itemsep -2pt \topsep 0ex
+\item Integrated Yandex.News with personalization service \\
+Improved clicks personalized positions by 10\%
+\item Developing infrastructure for A/B testing
+\item Developing search of origins in Yandex.News stories
+\end{itemize}
+
+ {\bf Developer,} Yandex LLC \hfill 2014 \\
+Yandex Banner System Real-time Technologies Department
+\begin{itemize} \itemsep -2pt \topsep 0ex
+\item Developed runtime for feature extraction and CTR prediction algorithms \\
+Improved CTR up to 2\%
+\item Improved RPS of main Banner system up to 8\% using custom allocator
+ \end{itemize}
+
+ {\bf Intern Developer,} Yandex LLC \hfill 2012 -- 2014 \\
+Yandex Banner System Real-time Technologies Department
+\begin{itemize} \itemsep -2pt \topsep 0ex
+\item Added binary protocol support to data storage service \\
+Improved performance of data preparation up to 3x
+\item Developed and enhanced performance of anti-fraud filters
+\item Improved design and code style in Banner service \\
+Introduced unit-testing
+\end{itemize}
+
+\section{Education}
+\textbf{Moscow State University} B.S. and M.S. equivalent \hfill 2010 -- 2015 \\
+Faculty of Computational Mathematics and Cybernetics \\
+With Honours, GPA 4.8
+
+\textbf{Yandex School of Data Analysis} \hfill 2013 -- 2015 \\
+Big Data specialization \\
+GPA 4.3
+
+\section{Skills}
+\begin{itemize} \itemsep -2pt \topsep 0ex
+\item C/C++ (expert), Python (proficient), Go (prior experience)
+\item Algorithms, data structures
+\item System programming (Unix), concurrent programming, distributed systems
+\item Machine learning, data analysis
+\end{itemize}
+
+\section{Projects}
+\begin{itemize} \itemsep -2pt \topsep 0ex
+\item Distributed fault-tolerant framework for sparse machine learning, team project \\
+\url{https://bitbucket.org/darth_slon/bsc}
+\item Multi-player client-server game, team project \\
+\url{https://github.com/yazevnul/angry-balls}
+\item Library for non-blocking I/O (and small reverse proxy using it) \\
+\url{https://github.com/tanyatik/mio-proxy}
+\item Implementation of various algorithms and data structures \\
+\url{https://github.com/tanyatik/algorithms} \\
+\url{https://github.com/tanyatik/ext}
+\item 3D visualization using OpenGL 3.0 graphic shaders and caustics \\
+\url{https://github.com/tanyatik/pool-caustics}
+\end{itemize}
+
+
+%\section{Honors}
+%Prizewinner of Intel Science and Engineering Fair, St. Petersbourgh, 2007, 2008, 2009
+%
+\end{resume}
+\end{document}
+
+
